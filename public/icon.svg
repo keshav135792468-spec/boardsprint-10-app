@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#1D4ED8" />
+  <rect x="32" y="32" width="448" height="448" rx="84" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="4" />
+  <!-- Open editorial book mark -->
+  <path
+    d="M128 156c0-13.3 10.7-24 24-24h88c17.7 0 32 14.3 32 32v188c-12-10-28-16-46-16h-74c-13.3 0-24-10.7-24-24V156z"
+    fill="#FAF9F6"
+  />
+  <path
+    d="M384 156c0-13.3-10.7-24-24-24h-88c-17.7 0-32 14.3-32 32v188c12-10 28-16 46-16h74c13.3 0 24-10.7 24-24V156z"
+    fill="#E8E4DA"
+  />
+  <!-- Spine crease -->
+  <line x1="256" y1="154" x2="256" y2="350" stroke="#181A1F" stroke-opacity="0.22" stroke-width="5" />
+  <!-- Crisp Class 10 badge accent -->
+  <circle cx="352" cy="348" r="64" fill="#181A1F" />
+  <circle cx="352" cy="348" r="56" fill="none" stroke="#FAF9F6" stroke-opacity="0.25" stroke-width="3" />
+  <text
+    x="352"
+    y="366"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700"
+    font-size="54"
+    fill="#FAF9F6"
+    letter-spacing="-1"
+  >10</text>
+  <!-- Editorial ink lines on left page -->
+  <rect x="156" y="182" width="70" height="10" rx="5" fill="#1D4ED8" fill-opacity="0.85" />
+  <rect x="156" y="212" width="56" height="8" rx="4" fill="#525866" fill-opacity="0.55" />
+  <rect x="156" y="236" width="64" height="8" rx="4" fill="#525866" fill-opacity="0.55" />
+  <rect x="156" y="260" width="44" height="8" rx="4" fill="#15803D" fill-opacity="0.85" />
+</svg>

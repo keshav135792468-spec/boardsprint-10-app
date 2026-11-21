@@ -1,0 +1,8 @@
+{
+  "name": "BoardSprint 10 — Pre-Board Syllabus Planner",
+  "description": "Complete 10-day CBSE Class 10th pre-board study schedule (Nov 21–30) covering Maths, Science, SST, English Communicative, Hindi Course A, AI, and Punjabi with Google Workspace sync, Gemini study studio, and Syllabus Defender revision game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

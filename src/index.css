@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF6F9;
+    color: #221329;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Enchanted Botanical & Arcane Light Canvas */
+.floral-magic-canvas {
+  background-color: #FBF6F9;
+  background-image:
+    radial-gradient(ellipse 68% 42% at 10% 0%, rgba(190, 24, 93, 0.085), transparent 62%),
+    radial-gradient(ellipse 64% 44% at 92% 4%, rgba(109, 40, 217, 0.095), transparent 64%),
+    radial-gradient(ellipse 52% 36% at 50% 42%, rgba(217, 119, 6, 0.055), transparent 68%),
+    radial-gradient(ellipse 60% 46% at 88% 96%, rgba(190, 24, 93, 0.07), transparent 65%);
+}
+
+/* Single-elevation Enchanted Porcelain Card with Rose-Gold Hairline & Arcane Aura */
+.enchanted-card {
+  background-color: rgba(255, 255, 255, 0.94);
+  border: 1px solid #E8D7E4;
+  box-shadow: 0 10px 30px -16px rgba(91, 33, 182, 0.14);
+}
+
+.enchanted-cta {
+  background-image: linear-gradient(110deg, #5B21B6 0%, #7E22CE 52%, #BE185D 100%);
+  box-shadow: 0 8px 22px -8px rgba(109, 40, 217, 0.48);
+}
+
+.enchanted-cta:hover:not(:disabled) {
+  background-image: linear-gradient(110deg, #4C1D95 0%, #6B21A8 52%, #9D174D 100%);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Official Google Sign-In Material Button styling */
+.gsi-material-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #C9B2C5;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #221329;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: 0.2px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 14px;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gsi-material-button:hover:not(:disabled) {
+  box-shadow: 0 4px 12px rgba(109, 40, 217, 0.14);
+  background-color: #FCF8FB;
+  border-color: #9333EA;
+}
+
+.gsi-material-button:focus-visible {
+  outline: 2px solid #6D28D9;
+  outline-offset: 2px;
+}
+
+.gsi-material-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.gsi-material-button-content-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gsi-material-button-icon {
+  height: 18px;
+  width: 18px;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
